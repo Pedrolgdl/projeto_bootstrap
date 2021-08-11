@@ -47,12 +47,17 @@ header, .navbar {
   padding: 1rem .8rem;
 }
 
+.nav-item.active {
+  border-bottom: 3px solid #FFF;
+}
+
 /* Slider */
+
 .container-fluid {
   padding: 0;
 }
 
-#mainSlider .carousel-iner, #mainSlider .carousel-item {
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
   height: 90vh;
 }
 
@@ -92,5 +97,5 @@ header, .navbar {
 }
 
 .carousel-indicators .active {
-  border-color: #65DAF9;
+  background-color: #65DAF9;
 }
