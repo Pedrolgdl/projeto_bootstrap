@@ -536,7 +536,6 @@ header, .navbar {
   }
 
   .carousel-caption .main-btn {
-    
     font-size: 14px;
   }
 
@@ -606,5 +605,70 @@ header, .navbar {
     border: none;
     margin-bottom: 0;
   }
+
+}
+
+@media(max-width: 376px) {
+
+  /* Call area */
+  #call-area p {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  /* Contact */
+  #contact-area .main-title {
+    font-size: 24px;
+  }
+
+  .contact-box {
+    padding-bottom: 25px;
+  }
+
+}
+
+@media(max-width: 321px) {
+
+  /* slider */
+  #mainSlider .carousel-caption h2 {
+    font-size: 12px;
+  }
+
+  .carousel-caption .main-btn {
+    font-size: 10px;
+    padding: 3px 10px;
+  }
+
+  /* Services */
+  #services-area .main-title {
+    font-size: 26px;
+  }
+
+  /* Portfolio */
+  #portfolio-area .main-title {
+    font-size: 24px;
+  }
+
+  /* News */
+  #email-input, #news-btn {
+    font-size: 14px;
+  }
+
+  #email-input {
+    margin-right: 10px;
+  }
+
+  /* Call area */
+  #call-area p {
+    font-size: 10px;
+    width: 100%;
+  }
+
+  #call-area #call-btn {
+    padding-bottom: 25px;
+    font-size: 12px;
+    height: 0;
+  }
+
 
 }
